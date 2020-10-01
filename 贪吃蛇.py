@@ -135,7 +135,10 @@ def main():
     gui.mainloop()
 def quitgame():
     quite = exit()
-
+def error():
+    print("There is a problem: the game is forced to enter the wrong module (function). If this is the first time you see such an error message, please try to restart the game.")
+    print("If the problem still exists, please search for the source code of the program to see if there is a problem, and check whether some cracked versions have deleted the authenticity verification.")
+    
 if __name__ == '__main__':
     main()
  
